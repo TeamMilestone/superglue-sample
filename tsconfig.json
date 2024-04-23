@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "baseUrl": "./app",
+	"allowJs": true,
+    "paths": {
+      "components/*": ["./app/components/*"],
+      "views/*": ["./app/views/*"],
+      "javascript/*": ["./app/javascript/*"]
+    }
+  }
+}
