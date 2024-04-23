@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.2.0'
+ruby '3.2.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 7'
@@ -45,6 +45,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "jsbundling-rails", "~> 1.2"
 gem "cssbundling-rails", "~> 1.3"
+
+gem "tailwindcss-rails"
 
 gem 'sprockets-rails', :require => 'sprockets/railtie'
 gem 'superglue', ">= 0.53.0"

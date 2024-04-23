@@ -221,12 +221,12 @@ GEM
       actionpack (>= 7.0.0)
       form_props (>= 0.0.5)
       props_template (>= 0.32.0)
+    tailwindcss-rails (2.4.0-arm64-darwin)
+      railties (>= 6.0.0)
     thor (1.2.2)
     timeout (0.4.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-    tzinfo-data (1.2023.3)
-      tzinfo (>= 1.0.0)
     web-console (4.2.1)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -246,6 +246,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
+  arm64-darwin-22
 
 DEPENDENCIES
   active_link_to
@@ -262,11 +263,14 @@ DEPENDENCIES
   pg (>= 0.18, < 2.0)
   puma (~> 4.1)
   rails (~> 7)
+  ruby-lsp
+  ruby-lsp-rails
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)
   sprockets-rails
   superglue (>= 0.53.0)
+  tailwindcss-rails
   tzinfo-data
   web-console (>= 3.3.0)
   webdrivers
