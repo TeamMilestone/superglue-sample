@@ -11,5 +11,7 @@ Rails.application.routes.draw do
     resource :selection, only: [:destroy]
   end
 
+  mount ActionCable.server => "/cable"
+
   root to: redirect("/venues/benedum_center/floors/orchestra/seats")
 end

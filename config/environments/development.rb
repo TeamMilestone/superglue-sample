@@ -52,6 +52,10 @@ Rails.application.configure do
   config.assets.quiet = true
   config.assets.debug = true
 
+  config.action_cable.mount_path = "/cable"
+  config.action_cable.allowed_request_origins = [ /http:\/\/.*/, /https:\/\/.*/, nil]
+  config.action_cable.url = "ws://localhost:3000/cable"
+
   # Raises error for missing translations.
   # config.i18n.raise_on_missing_translations = true
 

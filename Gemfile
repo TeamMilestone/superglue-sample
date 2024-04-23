@@ -58,4 +58,6 @@ gem 'humid'
 group :development do
   gem "ruby-lsp"
   gem "ruby-lsp-rails"
+
+  gem "rails_live_reload", "~> 0.3.6"
 end
