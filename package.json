@@ -21,6 +21,7 @@
   },
   "version": "0.1.0",
   "scripts": {
+	"dev": "esbuild app/javascript/application.js --bundle --sourcemap --outdir=app/assets/builds --loader:.js=jsx --loader:.svg=dataurl --public-path=/assets --watch=forever",
     "build": "yarn run build:web && yarn run build:ssr",
     "build:web": "esbuild app/javascript/application.js --bundle --sourcemap --outdir=app/assets/builds --loader:.js=jsx --loader:.svg=dataurl --public-path=/assets",
     "build:ssr": "node ./build-ssr.mjs",
