@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+
+system("bundle exec rails g scaffold #{ARGV.join(' ')} --force --no-template-engine --superglue")
