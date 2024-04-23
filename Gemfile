@@ -52,3 +52,8 @@ gem 'superglue', ">= 0.53.0"
 gem "form_props", "~> 0.0.5"
 gem 'active_link_to'
 gem 'humid'
+
+group :development do
+  gem "ruby-lsp"
+  gem "ruby-lsp-rails"
+end
