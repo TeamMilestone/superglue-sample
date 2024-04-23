@@ -1,0 +1,13 @@
+
+name: supergluelab
+root: ~/work/superglue-sample/
+
+windows:
+  - application:
+      layout: main-vertical
+      panes:
+        - export RUBY_LSP_LOCAL=true && vi .
+  # - debugging:
+  #     layout: main-vertical
+  #     panes:
+  #       - milk_tarot_mobile/ && flutter pub run build_runner watch --delete-conflicting-outputs
